@@ -8,7 +8,7 @@ let score = 0
 let maxPossibleScore = -1
 let scoreContainer = null
 
-let time = 30 // seconds
+let time = 40 // seconds
 let timeIntervalId = null
 let timeContainer = null
 
