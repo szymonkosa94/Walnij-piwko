@@ -16,7 +16,7 @@ let moleRotationInterval = 2 // seconds
 let moleRotationIntervalId = null
 
 let moleRotationIntervalIncTime = 10 // seconds
-const moleRotationIntervalIncFactor = 0.75
+const moleRotationIntervalIncFactor = 0.8
 
 const incMaxPossibleScore = () => {
     maxPossibleScore = maxPossibleScore + 1
