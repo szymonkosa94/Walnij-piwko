@@ -8,7 +8,7 @@ let score = 0
 let maxPossibleScore = -1
 let scoreContainer = null
 
-let time = 60 // seconds
+let time = 30 // seconds
 let timeIntervalId = null
 let timeContainer = null
 
@@ -78,6 +78,11 @@ if(score === 1)scoreContainer.innerText = score + '/' + maxPossibleScore + ' piw
 if(score >= 2 && score <= 4)scoreContainer.innerText = score + '/' + maxPossibleScore + ' piwka'
 if(score >= 22 && score <= 24)scoreContainer.innerText = score + '/' + maxPossibleScore + ' piwka' 
 if(score >= 32 && score <= 34)scoreContainer.innerText = score + '/' + maxPossibleScore + ' piwka'
+if(score >= 42 && score <= 44)scoreContainer.innerText = score + '/' + maxPossibleScore + ' piwka'   
+if(score >= 52 && score <= 54)scoreContainer.innerText = score + '/' + maxPossibleScore + ' piwka'
+if(score >= 62 && score <= 64)scoreContainer.innerText = score + '/' + maxPossibleScore + ' piwka'
+if(score >= 72 && score <= 74)scoreContainer.innerText = score + '/' + maxPossibleScore + ' piwka'
+if(score >= 82 && score <= 84)scoreContainer.innerText = score + '/' + maxPossibleScore + ' piwka'
 }
 
 const incScore = () => {
